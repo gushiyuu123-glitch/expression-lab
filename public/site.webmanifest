@@ -1,0 +1,30 @@
+{
+  "name": "Expression Lab",
+  "short_name": "Expression Lab",
+  "description": "Expression Lab — 扉が映すもの。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#030405",
+  "theme_color": "#030405",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

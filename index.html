@@ -1,14 +1,91 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja" translate="no">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Basic -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google翻訳を完全無効化 -->
     <meta name="google" content="notranslate" />
-    <title>expression-lab</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#030405" />
+    <meta name="color-scheme" content="dark" />
+
+    <title>Expression Lab | 扉が映すもの。</title>
+    <meta
+      name="description"
+      content="Expression Labは、表現・奥行き・文字・光・感覚を、扉の向こうに映し出す実験室です。"
+    />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://expression-lab.vercel.app/" />
+
+    <!-- Icons -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- OGP -->
+    <meta property="og:site_name" content="Expression Lab" />
+    <meta property="og:title" content="Expression Lab | 扉が映すもの。" />
+    <meta
+      property="og:description"
+      content="表現・奥行き・文字・光・感覚を、扉の向こうに映し出す実験室。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://expression-lab.vercel.app/" />
+    <meta
+      property="og:image"
+      content="https://expression-lab.vercel.app/images/ogp-expression-lab.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Expression Lab — 扉が映すもの。"
+    />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Expression Lab | 扉が映すもの。" />
+    <meta
+      name="twitter:description"
+      content="表現・奥行き・文字・光・感覚を、扉の向こうに映し出す実験室。"
+    />
+    <meta
+      name="twitter:image"
+      content="https://expression-lab.vercel.app/images/ogp-expression-lab.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Expression Lab — 扉が映すもの。"
+    />
+
+    <!-- Search -->
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Expression Lab",
+        "alternateName": "表現ラボ",
+        "url": "https://expression-lab.vercel.app/",
+        "description": "Expression Labは、表現・奥行き・文字・光・感覚を、扉の向こうに映し出す実験室です。",
+        "inLanguage": "ja",
+        "image": "https://expression-lab.vercel.app/images/ogp-expression-lab.png"
+      }
+    </script>
   </head>
+
   <body>
+    <noscript>
+      Expression Labは、JavaScriptを有効にすると体験できます。
+    </noscript>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
